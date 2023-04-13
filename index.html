@@ -15,7 +15,7 @@
       <nav class="flex-added">
           <a lang="en" class="logo" href="./index.html">Web<span class="logo-part">Studio</span></a>
         <ul class="nav-site">
-          <li class="nav-site-item"><a class="nav-site-link current" href="./index.html">Студія222</a></li>
+          <li class="nav-site-item"><a class="nav-site-link current" href="./index.html">Студія</a></li>
           <li class="nav-site-item"><a class="nav-site-link" href="./portfolio.html">Портфоліо</a></li>
           <li class="nav-site-item"><a class="nav-site-link" href="">Контакти</a></li>
         </ul>
@@ -39,7 +39,7 @@
       <section class="hero">
         <div class="container">
         <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
-        <button class="hero-btn pointer" type="button">Замовити послугу</button>
+        <button class="hero-btn pointer" type="button" data-modal-open>Замовити послугу</button>
         </div>
       </section>
 
@@ -402,5 +402,16 @@
         </div>
     </div>
     </footer>
+                                      <!-- backdrop modal window -->
+<div class="backdrop is-hidden" data-modal>
+  <div class="modal">
+   <button type="button" class="modal-close-btn" data-modal-close>
+     <svg class="modal-close-icon" width="30" height="30"> 
+      <use href="./images/sprite.svg#icon-close"></use>
+     </svg>
+   </button>
+  </div>
+</div>
+<script src="./js/modal.js"></script>
   </body>
 </html>
