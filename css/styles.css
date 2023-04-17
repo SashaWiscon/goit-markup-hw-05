@@ -112,7 +112,7 @@ text-decoration:none;
   background-color: var(--accent-text-color);
   border-radius: 2px;
   opacity: 0;
-  /* transition: opacity, 250ms, cubic-bezier(0.4, 0, 0.2, 1); */
+  transition: opacity, 250ms, cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .nav-site-link.current::after {
@@ -546,10 +546,6 @@ margin-bottom: 12px;
 .cards a {
   text-decoration: none;
 }  
-/* .cards-image {
-  position: relative;
-  margin-bottom: 0;
-} */
 .cards-item {
   margin-right: 30px;
   margin-bottom: 30px;
@@ -633,6 +629,7 @@ border-left: 1px solid #eeeeee ;
   left: 0;
   width: 100vw;
   height: 100vh;
+  scale: 1;
   background-color: rgb(0, 0, 0, 0.2);
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1),
   scale 250ms cubic-bezier(0.4, 0, 0.2, 1) ;
